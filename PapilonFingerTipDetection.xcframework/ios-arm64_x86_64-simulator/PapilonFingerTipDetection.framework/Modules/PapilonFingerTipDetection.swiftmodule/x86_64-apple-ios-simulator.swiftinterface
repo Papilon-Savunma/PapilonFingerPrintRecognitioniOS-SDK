@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PapilonFingerTipDetection
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import CoreImage
+import DeveloperToolsSupport
+import Foundation
+@_exported import PapilonFingerTipDetection
+import Photos
+import Swift
+import SwiftUI
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct FingerImageData {
+  public var base64Rgb: Swift.String
+  public var base64Wsq: Swift.String
+  public init(base64Rgb: Swift.String, base64Wsq: Swift.String)
+}
+public protocol FingerTipDetectionDelegate : AnyObject {
+  func operationCompleted(wholeHand: Swift.String, indexFinger: Swift.String, middleFinger: Swift.String, ringFinger: Swift.String, pinkyFinger: Swift.String)
+  func didReceiveProcessedFingerData(_ fingerData: [Swift.String : PapilonFingerTipDetection.FingerImageData], wsqResults: [Swift.String : Swift.String])
+  func networkRequestDidStart()
+  func networkRequestDidFinish()
+}
+@objc public class FingerTipDetection : ObjectiveC.NSObject {
+  public var delegate: (any PapilonFingerTipDetection.FingerTipDetectionDelegate)?
+  public var licenceToken: Swift.String
+  public var licenceID: Swift.String
+  public var requestErrorType: Swift.Int?
+  public var isItDone: Swift.Bool {
+    get
+    set
+  }
+  public init(token: Swift.String, licenceID: Swift.String, parentView: UIKit.UIView)
+  public func startCamera()
+  public func getCaptureSession() -> AVFoundation.AVCaptureSession?
+  public func stopCamera()
+  @objc deinit
+}
+extension PapilonFingerTipDetection.FingerTipDetection : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+extension PapilonFingerTipDetection.FingerTipDetection : AVFoundation.AVCapturePhotoCaptureDelegate {
+  @objc dynamic public func photoOutput(_ output: AVFoundation.AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVFoundation.AVCapturePhoto, error: (any Swift.Error)?)
+}
+extension CoreFoundation.CGPoint : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}

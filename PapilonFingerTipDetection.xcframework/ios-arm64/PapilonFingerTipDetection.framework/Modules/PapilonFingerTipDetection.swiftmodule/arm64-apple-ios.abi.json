@@ -1,0 +1,4261 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FingerImageData",
+        "printedName": "FingerImageData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "base64Rgb",
+            "printedName": "base64Rgb",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64RgbSSvp",
+            "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64RgbSSvp",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64RgbSSvg",
+                "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64RgbSSvg",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64RgbSSvs",
+                "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64RgbSSvs",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64RgbSSvM",
+                "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64RgbSSvM",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "base64Wsq",
+            "printedName": "base64Wsq",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64WsqSSvp",
+            "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64WsqSSvp",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64WsqSSvg",
+                "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64WsqSSvg",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64WsqSSvs",
+                "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64WsqSSvs",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64WsqSSvM",
+                "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64WsqSSvM",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(base64Rgb:base64Wsq:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FingerImageData",
+                "printedName": "PapilonFingerTipDetection.FingerImageData",
+                "usr": "s:25PapilonFingerTipDetection0B9ImageDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25PapilonFingerTipDetection0B9ImageDataV9base64Rgb0G3WsqACSS_SStcfc",
+            "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV9base64Rgb0G3WsqACSS_SStcfc",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:25PapilonFingerTipDetection0B9ImageDataV",
+        "mangledName": "$s25PapilonFingerTipDetection0B9ImageDataV",
+        "moduleName": "PapilonFingerTipDetection",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FingerTipDetectionDelegate",
+        "printedName": "FingerTipDetectionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "operationCompleted",
+            "printedName": "operationCompleted(wholeHand:indexFinger:middleFinger:ringFinger:pinkyFinger:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25PapilonFingerTipDetection0bcD8DelegateP18operationCompleted9wholeHand05indexB006middleB004ringB005pinkyB0ySS_S4StF",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD8DelegateP18operationCompleted9wholeHand05indexB006middleB004ringB005pinkyB0ySS_S4StF",
+            "moduleName": "PapilonFingerTipDetection",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonFingerTipDetection.FingerTipDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonFingerTipDetection.FingerTipDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveProcessedFingerData",
+            "printedName": "didReceiveProcessedFingerData(_:wsqResults:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : PapilonFingerTipDetection.FingerImageData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FingerImageData",
+                    "printedName": "PapilonFingerTipDetection.FingerImageData",
+                    "usr": "s:25PapilonFingerTipDetection0B9ImageDataV"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25PapilonFingerTipDetection0bcD8DelegateP019didReceiveProcessedB4Data_10wsqResultsySDySSAA0b5ImageI0VG_SDyS2SGtF",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD8DelegateP019didReceiveProcessedB4Data_10wsqResultsySDySSAA0b5ImageI0VG_SDyS2SGtF",
+            "moduleName": "PapilonFingerTipDetection",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonFingerTipDetection.FingerTipDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonFingerTipDetection.FingerTipDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkRequestDidStart",
+            "printedName": "networkRequestDidStart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25PapilonFingerTipDetection0bcD8DelegateP22networkRequestDidStartyyF",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD8DelegateP22networkRequestDidStartyyF",
+            "moduleName": "PapilonFingerTipDetection",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonFingerTipDetection.FingerTipDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonFingerTipDetection.FingerTipDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkRequestDidFinish",
+            "printedName": "networkRequestDidFinish()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25PapilonFingerTipDetection0bcD8DelegateP23networkRequestDidFinishyyF",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD8DelegateP23networkRequestDidFinishyyF",
+            "moduleName": "PapilonFingerTipDetection",
+            "genericSig": "<τ_0_0 where τ_0_0 : PapilonFingerTipDetection.FingerTipDetectionDelegate>",
+            "sugared_genericSig": "<Self where Self : PapilonFingerTipDetection.FingerTipDetectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25PapilonFingerTipDetection0bcD8DelegateP",
+        "mangledName": "$s25PapilonFingerTipDetection0bcD8DelegateP",
+        "moduleName": "PapilonFingerTipDetection",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FingerTipDetection",
+        "printedName": "FingerTipDetection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PapilonFingerTipDetection.FingerTipDetectionDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FingerTipDetectionDelegate",
+                    "printedName": "PapilonFingerTipDetection.FingerTipDetectionDelegate",
+                    "usr": "s:25PapilonFingerTipDetection0bcD8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C8delegateAA0bcD8Delegate_pSgvp",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C8delegateAA0bcD8Delegate_pSgvp",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PapilonFingerTipDetection.FingerTipDetectionDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FingerTipDetectionDelegate",
+                        "printedName": "PapilonFingerTipDetection.FingerTipDetectionDelegate",
+                        "usr": "s:25PapilonFingerTipDetection0bcD8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C8delegateAA0bcD8Delegate_pSgvg",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C8delegateAA0bcD8Delegate_pSgvg",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PapilonFingerTipDetection.FingerTipDetectionDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FingerTipDetectionDelegate",
+                        "printedName": "PapilonFingerTipDetection.FingerTipDetectionDelegate",
+                        "usr": "s:25PapilonFingerTipDetection0bcD8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C8delegateAA0bcD8Delegate_pSgvs",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C8delegateAA0bcD8Delegate_pSgvs",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C8delegateAA0bcD8Delegate_pSgvM",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C8delegateAA0bcD8Delegate_pSgvM",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "licenceToken",
+            "printedName": "licenceToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C12licenceTokenSSvp",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C12licenceTokenSSvp",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C12licenceTokenSSvg",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C12licenceTokenSSvg",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C12licenceTokenSSvs",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C12licenceTokenSSvs",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C12licenceTokenSSvM",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C12licenceTokenSSvM",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "licenceID",
+            "printedName": "licenceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C9licenceIDSSvp",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C9licenceIDSSvp",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C9licenceIDSSvg",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C9licenceIDSSvg",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C9licenceIDSSvs",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C9licenceIDSSvs",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C9licenceIDSSvM",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C9licenceIDSSvM",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "requestErrorType",
+            "printedName": "requestErrorType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C16requestErrorTypeSiSgvp",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C16requestErrorTypeSiSgvp",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C16requestErrorTypeSiSgvg",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C16requestErrorTypeSiSgvg",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C16requestErrorTypeSiSgvs",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C16requestErrorTypeSiSgvs",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C16requestErrorTypeSiSgvM",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C16requestErrorTypeSiSgvM",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isItDone",
+            "printedName": "isItDone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C8isItDoneSbvp",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C8isItDoneSbvp",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C8isItDoneSbvg",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C8isItDoneSbvg",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C8isItDoneSbvs",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C8isItDoneSbvs",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25PapilonFingerTipDetection0bcD0C8isItDoneSbvM",
+                "mangledName": "$s25PapilonFingerTipDetection0bcD0C8isItDoneSbvM",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:licenceID:parentView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FingerTipDetection",
+                "printedName": "PapilonFingerTipDetection.FingerTipDetection",
+                "usr": "c:@M@PapilonFingerTipDetection@objc(cs)FingerTipDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C5token9licenceID10parentViewACSS_SSSo6UIViewCtcfc",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C5token9licenceID10parentViewACSS_SSSo6UIViewCtcfc",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startCamera",
+            "printedName": "startCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C11startCamerayyF",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C11startCamerayyF",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCaptureSession",
+            "printedName": "getCaptureSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVCaptureSession?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureSession",
+                    "printedName": "AVFoundation.AVCaptureSession",
+                    "usr": "c:objc(cs)AVCaptureSession"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C17getCaptureSessionSo09AVCaptureG0CSgyF",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C17getCaptureSessionSo09AVCaptureG0CSgyF",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopCamera",
+            "printedName": "stopCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25PapilonFingerTipDetection0bcD0C10stopCamerayyF",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C10stopCamerayyF",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FingerTipDetection",
+                "printedName": "PapilonFingerTipDetection.FingerTipDetection",
+                "usr": "c:@M@PapilonFingerTipDetection@objc(cs)FingerTipDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PapilonFingerTipDetection@objc(cs)FingerTipDetection(im)init",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0CACycfc",
+            "moduleName": "PapilonFingerTipDetection",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PapilonFingerTipDetection@objc(cs)FingerTipDetection(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C13captureOutput_03didF04fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0I10ConnectionCtF",
+            "moduleName": "PapilonFingerTipDetection",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "photoOutput",
+            "printedName": "photoOutput(_:didFinishProcessingPhoto:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCapturePhotoOutput",
+                "printedName": "AVFoundation.AVCapturePhotoOutput",
+                "usr": "c:objc(cs)AVCapturePhotoOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCapturePhoto",
+                "printedName": "AVFoundation.AVCapturePhoto",
+                "usr": "c:objc(cs)AVCapturePhoto"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PapilonFingerTipDetection@objc(cs)FingerTipDetection(im)captureOutput:didFinishProcessingPhoto:error:",
+            "mangledName": "$s25PapilonFingerTipDetection0bcD0C11photoOutput_24didFinishProcessingPhoto5errorySo09AVCapturejF0C_So0lJ0Cs5Error_pSgtF",
+            "moduleName": "PapilonFingerTipDetection",
+            "objc_name": "captureOutput:didFinishProcessingPhoto:error:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PapilonFingerTipDetection@objc(cs)FingerTipDetection",
+        "mangledName": "$s25PapilonFingerTipDetection0bcD0C",
+        "moduleName": "PapilonFingerTipDetection",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "PapilonFingerTipDetection"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CGPoint",
+        "printedName": "CGPoint",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7CGPointV25PapilonFingerTipDetectionE4hash4intoys6HasherVz_tF",
+            "mangledName": "$sSo7CGPointV25PapilonFingerTipDetectionE4hash4intoys6HasherVz_tF",
+            "moduleName": "PapilonFingerTipDetection",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7CGPointV25PapilonFingerTipDetectionE9hashValueSivp",
+            "mangledName": "$sSo7CGPointV25PapilonFingerTipDetectionE9hashValueSivp",
+            "moduleName": "PapilonFingerTipDetection",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7CGPointV25PapilonFingerTipDetectionE9hashValueSivg",
+                "mangledName": "$sSo7CGPointV25PapilonFingerTipDetectionE9hashValueSivg",
+                "moduleName": "PapilonFingerTipDetection",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@S@CGPoint",
+        "moduleName": "CoreFoundation",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSValue",
+                    "printedName": "Foundation.NSValue",
+                    "usr": "c:objc(cs)NSValue"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimatablePair",
+                    "printedName": "SwiftUI.AnimatablePair<CoreGraphics.CGFloat, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI14AnimatablePairV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 3790,
+      "length": 22,
+      "value": "\"VideoDataOutputQueue\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4260,
+      "length": 24,
+      "value": "\"wholeHand base64 value\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4340,
+      "length": 26,
+      "value": "\"indexFinger base64 value\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4424,
+      "length": 27,
+      "value": "\"middleFinger base64 value\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4505,
+      "length": 25,
+      "value": "\"ringFinger base64 value\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 4586,
+      "length": 26,
+      "value": "\"pinkyFinger base64 value\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4113,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 4752,
+      "length": 4,
+      "value": "0.80"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Dictionary",
+      "offset": 5251,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5419,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 5461,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 5515,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5548,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6131,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Array",
+      "offset": 6386,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Array",
+      "offset": 6432,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7002,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7037,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7077,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7109,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7138,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7319,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7351,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7375,
+      "length": 23,
+      "value": "\"Permission is granted\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 7806,
+      "length": 30,
+      "value": "\"Error setting up the camera:\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8064,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8092,
+      "length": 8,
+      "value": "\"token=\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8111,
+      "length": 14,
+      "value": "\"&license_id=\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8251,
+      "length": 50,
+      "value": "\"https:\/\/license.seeandsign.com\/license\/authorize\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8363,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8420,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8465,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 8810,
+      "length": 21,
+      "value": "\"Authorize request: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9236,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9373,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9827,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9855,
+      "length": 16,
+      "value": "\"session_token=\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 9882,
+      "length": 35,
+      "value": "\"&function=fingerprint_recognition\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10030,
+      "length": 55,
+      "value": "\"https:\/\/license.seeandsign.com\/license\/verify_session\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10147,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10204,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 10249,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11001,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11057,
+      "length": 39,
+      "value": "\", your quota for this SDK is expired.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11167,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11310,
+      "length": 11,
+      "value": "\"signature\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11482,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11582,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11674,
+      "length": 8,
+      "value": "\"public\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11698,
+      "length": 5,
+      "value": "\"pem\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11718,
+      "length": 3,
+      "value": "\"3\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 11847,
+      "length": 28,
+      "value": "\"-----BEGIN PUBLIC KEY-----\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11970,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 12110,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 12122,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 12161,
+      "length": 26,
+      "value": "\"-----END PUBLIC KEY-----\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 13339,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 13456,
+      "length": 9,
+      "value": "\"error: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 13939,
+      "length": 47,
+      "value": "\"Error: Parent view controller's view not set.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14325,
+      "length": 16,
+      "value": "\"5f-red-long-v2\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 14527,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 14697,
+      "length": 18,
+      "value": "\"5f-green-long-v2\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 14907,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14952,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 15168,
+      "length": 27,
+      "value": "\"5f-green-long-v3-open.png\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 15530,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15578,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 15761,
+      "length": 25,
+      "value": "\"5f-red-long-v3-open.png\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 16111,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16157,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16356,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16517,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 16600,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 17769,
+      "length": 26,
+      "value": "\"camera starting from sdk\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 17876,
+      "length": 30,
+      "value": "\"Error setting up the camera:\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 18057,
+      "length": 30,
+      "value": "\"get capture session from sdk\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 18468,
+      "length": 37,
+      "value": "\"Could not access the camera device.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18731,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18935,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19118,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19679,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 20366,
+      "length": 45,
+      "value": "\"Could not add input to the capture session.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 20490,
+      "length": 40,
+      "value": "\"Could not initialize the device input.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20930,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21006,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 21180,
+      "length": 19,
+      "value": "\"cameraView is nil\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 21861,
+      "length": 25,
+      "value": "\"Found duplicate points.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22673,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22697,
+      "length": 3,
+      "value": "380"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22824,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22872,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24241,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24262,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24421,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24481,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24543,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24603,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 24819,
+      "length": 37,
+      "value": "\"Place your hand in the guide image.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25251,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25273,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25420,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25480,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25542,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25602,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 25818,
+      "length": 30,
+      "value": "\"You're too close, move away.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26246,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26268,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26441,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26501,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26561,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26623,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 26839,
+      "length": 23,
+      "value": "\"Keep your hand closer\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27487,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27540,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27562,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 27662,
+      "length": 17,
+      "value": "\"\nFIRST MEASURE\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 27804,
+      "length": 16,
+      "value": "\"Camera State: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 27959,
+      "length": 22,
+      "value": "\"Keep your hand close\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 28197,
+      "length": 41,
+      "value": "\"Updating overlays. handInsideRedRegion:\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28465,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28525,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28670,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29065,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29111,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 29137,
+      "length": 53,
+      "value": "\"FIRST MEASURE: hand is closed and the distance is: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29334,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29368,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29405,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29626,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 29878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29899,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30057,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30116,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30178,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30238,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 30455,
+      "length": 40,
+      "value": "\"Place your hand in the guide image. #2\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30882,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30904,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31050,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31109,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31171,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31231,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 31448,
+      "length": 33,
+      "value": "\"You're too close, move away. #2\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31871,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31893,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32124,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32184,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32247,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 32463,
+      "length": 27,
+      "value": "\"Keep your hand closer. #2\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33034,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 33039,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33139,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 33164,
+      "length": 18,
+      "value": "\"\nSECOND MEASURE\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 33255,
+      "length": 16,
+      "value": "\"Camera State: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33383,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33442,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33504,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33565,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34067,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34114,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34205,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34251,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34340,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34385,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 34412,
+      "length": 25,
+      "value": "\"index-middle distance: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 34482,
+      "length": 24,
+      "value": "\"middle-ring distance: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 34550,
+      "length": 23,
+      "value": "\"ring-pinky distance: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34684,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 34689,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34785,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 34790,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 34885,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 34890,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 34966,
+      "length": 28,
+      "value": "\"Hand is sufficiently open!\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 35090,
+      "length": 39,
+      "value": "\"Hand not open enough or still closed.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 35178,
+      "length": 29,
+      "value": "\"Open your hand more widely.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 35332,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 35673,
+      "length": 16,
+      "value": "\"Camera State: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 35838,
+      "length": 3,
+      "value": "1.1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 35968,
+      "length": 16,
+      "value": "\"Camera State: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 36156,
+      "length": 14,
+      "value": "\"Photo taken!\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 36337,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 36584,
+      "length": 16,
+      "value": "\"Camera State: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37060,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37087,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37118,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 37615,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37735,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37769,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 38280,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 38347,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 2767,
+      "length": 18,
+      "value": "\"PapilonFingerTipDetection.FingerTipDetection\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Array",
+      "offset": 39520,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Array",
+      "offset": 39559,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Array",
+      "offset": 39598,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Array",
+      "offset": 39637,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Dictionary",
+      "offset": 39923,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40078,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40749,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 43142,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 44149,
+      "length": 9,
+      "value": "\"???????\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 44174,
+      "length": 9,
+      "value": "\"scale: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 44206,
+      "length": 15,
+      "value": "\"imageHeight: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 44250,
+      "length": 14,
+      "value": "\"imageWidth: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 44292,
+      "length": 26,
+      "value": "\"translated rect values: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 44350,
+      "length": 9,
+      "value": "\"???????\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 44595,
+      "length": 20,
+      "value": "\"CISharpenLuminance\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 44715,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 46381,
+      "length": 55,
+      "value": "\"Error capturing photo: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 46435,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 46602,
+      "length": 26,
+      "value": "\"Error getting image data\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 46789,
+      "length": 27,
+      "value": "\"===== cropWholeHand =====\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 46870,
+      "length": 27,
+      "value": "\"===== cropWholeHand =====\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 47039,
+      "length": 48,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 47070,
+      "length": 6,
+      "value": "\" finger detected\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 47828,
+      "length": 14,
+      "value": "\"screenSize: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 48231,
+      "length": 48,
+      "value": "\"Cropping Rectangle for finger: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 48278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 48595,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 48659,
+      "length": 60,
+      "value": "\"Base64 \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 48697,
+      "length": 6,
+      "value": "\" Finger Image String:\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 49496,
+      "length": 46,
+      "value": "\"Image cropping failed for \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 49541,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 50156,
+      "length": 19,
+      "value": "\"**** photos sent!\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 50576,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 50608,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 50640,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 50672,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 50713,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 50745,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 50787,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 50821,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51252,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 52101,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 52143,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52178,
+      "length": 8,
+      "value": "\"tipX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52212,
+      "length": 8,
+      "value": "\"dipX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52246,
+      "length": 11,
+      "value": "\"-> minX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52283,
+      "length": 11,
+      "value": "\"=> maxX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52325,
+      "length": 8,
+      "value": "\"tipY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52359,
+      "length": 8,
+      "value": "\"dipY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52393,
+      "length": 11,
+      "value": "\"-> minY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52430,
+      "length": 11,
+      "value": "\"=> maxY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52472,
+      "length": 8,
+      "value": "\"posX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52506,
+      "length": 8,
+      "value": "\"posY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52540,
+      "length": 9,
+      "value": "\"width: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 52576,
+      "length": 10,
+      "value": "\"height: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 52960,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 53002,
+      "length": 4,
+      "value": "1.95"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53038,
+      "length": 8,
+      "value": "\"tipX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53072,
+      "length": 8,
+      "value": "\"dipX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53106,
+      "length": 11,
+      "value": "\"-> minX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53143,
+      "length": 11,
+      "value": "\"=> maxX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53185,
+      "length": 8,
+      "value": "\"tipY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53219,
+      "length": 8,
+      "value": "\"dipY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53253,
+      "length": 11,
+      "value": "\"-> minY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53290,
+      "length": 11,
+      "value": "\"=> maxY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53332,
+      "length": 8,
+      "value": "\"posX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53366,
+      "length": 8,
+      "value": "\"posY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53400,
+      "length": 9,
+      "value": "\"width: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 53436,
+      "length": 10,
+      "value": "\"height: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 53980,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 54022,
+      "length": 4,
+      "value": "1.75"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54058,
+      "length": 8,
+      "value": "\"tipX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54092,
+      "length": 8,
+      "value": "\"dipX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54126,
+      "length": 11,
+      "value": "\"-> minX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54163,
+      "length": 11,
+      "value": "\"=> maxX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54205,
+      "length": 8,
+      "value": "\"tipY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54239,
+      "length": 8,
+      "value": "\"dipY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54273,
+      "length": 11,
+      "value": "\"-> minY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54310,
+      "length": 11,
+      "value": "\"=> maxY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54352,
+      "length": 8,
+      "value": "\"posX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54386,
+      "length": 8,
+      "value": "\"posY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54420,
+      "length": 9,
+      "value": "\"width: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54456,
+      "length": 10,
+      "value": "\"height: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 54860,
+      "length": 3,
+      "value": "1.3"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 54901,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54936,
+      "length": 8,
+      "value": "\"tipX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 54970,
+      "length": 8,
+      "value": "\"dipX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55004,
+      "length": 11,
+      "value": "\"-> minX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55041,
+      "length": 11,
+      "value": "\"=> maxX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55083,
+      "length": 8,
+      "value": "\"tipY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55117,
+      "length": 8,
+      "value": "\"dipY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55151,
+      "length": 11,
+      "value": "\"-> minY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55188,
+      "length": 11,
+      "value": "\"=> maxY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55230,
+      "length": 8,
+      "value": "\"posX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55264,
+      "length": 8,
+      "value": "\"posY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55298,
+      "length": 9,
+      "value": "\"width: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55334,
+      "length": 10,
+      "value": "\"height: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55581,
+      "length": 4,
+      "value": "1170"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55633,
+      "length": 4,
+      "value": "2532"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55661,
+      "length": 16,
+      "value": "\"screenRatioX: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55707,
+      "length": 16,
+      "value": "\"screenRatioY: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55753,
+      "length": 20,
+      "value": "\"screenSize.width: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 55807,
+      "length": 21,
+      "value": "\"screenSize.height: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55973,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 55993,
+      "length": 3,
+      "value": "520"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56055,
+      "length": 3,
+      "value": "539"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56075,
+      "length": 3,
+      "value": "840"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56135,
+      "length": 3,
+      "value": "860"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56155,
+      "length": 3,
+      "value": "650"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56217,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56237,
+      "length": 3,
+      "value": "160"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56876,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 56928,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 57193,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 57602,
+      "length": 33,
+      "value": "\"Failed to crop whole hand image\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 57751,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 57804,
+      "length": 53,
+      "value": "\"Error converting cropped whole hand image to base64\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 57907,
+      "length": 42,
+      "value": "\"Base64 Encoded Cropped Whole Hand Image:\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60458,
+      "length": 55,
+      "value": "\"https:\/\/license.seeandsign.com\/v2\/fingerprint\/process\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60716,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60747,
+      "length": 31,
+      "value": "\"Boundary-\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60777,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60804,
+      "length": 43,
+      "value": "\"multipart\/form-data; boundary=\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60846,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60869,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60905,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60930,
+      "length": 12,
+      "value": "\"whole_hand\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60955,
+      "length": 12,
+      "value": "\"left_index\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 60982,
+      "length": 13,
+      "value": "\"left_middle\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61011,
+      "length": 11,
+      "value": "\"left_ring\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61036,
+      "length": 12,
+      "value": "\"left_pinky\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61120,
+      "length": 19,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61134,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61160,
+      "length": 57,
+      "value": "\"Content-Disposition: form-data; name=\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61206,
+      "length": 1,
+      "value": "\"\"\r\n\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61238,
+      "length": 14,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61247,
+      "length": 1,
+      "value": "\"\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61279,
+      "length": 21,
+      "value": "\"--\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61293,
+      "length": 2,
+      "value": "\"--\r\n\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61524,
+      "length": 53,
+      "value": "\"Error sending photo: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61576,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61908,
+      "length": 43,
+      "value": "\"Response code: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 61950,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Dictionary",
+      "offset": 62038,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Dictionary",
+      "offset": 62089,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "Array",
+      "offset": 62244,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 62464,
+      "length": 12,
+      "value": "\"base64_rgb\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 62537,
+      "length": 12,
+      "value": "\"base64_wsq\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 62861,
+      "length": 34,
+      "value": "\"Error parsing response: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 62894,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 63347,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63521,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63589,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63709,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63831,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63987,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 63998,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 64115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/FingerTipDetection.swift",
+      "kind": "FloatLiteral",
+      "offset": 64122,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 763,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1184,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1204,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 2086,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2520,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2539,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2553,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 3537,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3971,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3990,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4004,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4959,
+      "length": 3,
+      "value": "123"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5206,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5300,
+      "length": 3,
+      "value": "123"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5571,
+      "length": 3,
+      "value": "123"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 5971,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 5979,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 6134,
+      "length": 51,
+      "value": "\"Could not lock device for configuration: \""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 6184,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/CameraUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 6382,
+      "length": 29,
+      "value": "\"Error: Photo output is nil.\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 28,
+      "value": "\"Error: previewLayer is nil\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 679,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 865,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 955,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1018,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1180,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1278,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1413,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1475,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1797,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1946,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "FloatLiteral",
+      "offset": 1986,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/macmini\/DevProjects\/iosProjects\/FingerTipWorkingDirectory\/PapilonFingerTipDetection\/PapilonFingerTipDetection\/MessageUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/Library\/Developer\/Xcode\/DerivedData\/PapilonFingerTipDetection-gpqwzzslsdgzgzhhraxccpitivmb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PapilonFingerTipDetection\/IntermediateBuildFilesPath\/PapilonFingerTipDetection.build\/Release-iphoneos\/PapilonFingerTipDetection.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 18,
+      "value": "\"5f-green-long-v2\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/Library\/Developer\/Xcode\/DerivedData\/PapilonFingerTipDetection-gpqwzzslsdgzgzhhraxccpitivmb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PapilonFingerTipDetection\/IntermediateBuildFilesPath\/PapilonFingerTipDetection.build\/Release-iphoneos\/PapilonFingerTipDetection.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 910,
+      "length": 23,
+      "value": "\"5f-green-long-v3-open\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/Library\/Developer\/Xcode\/DerivedData\/PapilonFingerTipDetection-gpqwzzslsdgzgzhhraxccpitivmb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PapilonFingerTipDetection\/IntermediateBuildFilesPath\/PapilonFingerTipDetection.build\/Release-iphoneos\/PapilonFingerTipDetection.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1069,
+      "length": 16,
+      "value": "\"5f-red-long-v2\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/Library\/Developer\/Xcode\/DerivedData\/PapilonFingerTipDetection-gpqwzzslsdgzgzhhraxccpitivmb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PapilonFingerTipDetection\/IntermediateBuildFilesPath\/PapilonFingerTipDetection.build\/Release-iphoneos\/PapilonFingerTipDetection.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1230,
+      "length": 21,
+      "value": "\"5f-red-long-v3-open\""
+    },
+    {
+      "filePath": "\/Users\/macmini\/Library\/Developer\/Xcode\/DerivedData\/PapilonFingerTipDetection-gpqwzzslsdgzgzhhraxccpitivmb\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PapilonFingerTipDetection\/IntermediateBuildFilesPath\/PapilonFingerTipDetection.build\/Release-iphoneos\/PapilonFingerTipDetection.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1382,
+      "length": 13,
+      "value": "\"hand_opened\""
+    }
+  ]
+}

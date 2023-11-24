@@ -1,0 +1,11 @@
+framework module PapilonFingerTipDetection {
+  umbrella header "PapilonFingerTipDetection.h"
+  export *
+
+  module * { export * }
+}
+
+module PapilonFingerTipDetection.Swift {
+  header "PapilonFingerTipDetection-Swift.h"
+  requires objc
+}
