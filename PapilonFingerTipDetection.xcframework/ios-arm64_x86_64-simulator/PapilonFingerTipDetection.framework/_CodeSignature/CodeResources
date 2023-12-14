@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		7mTTpqSYmz7sJgLgr7VE24VN/4U=
+		i7DH/MxgiMeMweUyrvuWCkDutJ4=
 		</data>
 		<key>Headers/PapilonFingerTipDetection-Swift.h</key>
 		<data>
-		raDIQjUwBph76SECxMcCYKehNYs=
+		Vn81nPWZBayHdAZsLSvpOQWlo/g=
 		</data>
 		<key>Headers/PapilonFingerTipDetection.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		k8amtDt0R9HE/de/7gnPECRxbio=
+		2CvuCC+F8edKS4dE0Ox88o8ck1Q=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Lj7DO5bJ4XhbVZwSoQQjc8QTNmk=
+		9/KyPu7PU3zOAaD8OMu1phcPRzY=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0D1xBJ/qV8BumMuBcv1Fz6uAYpA=
+		syirIFRMLrMs7XNEHLUmISc4KfQ=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CARMiN1CLWC3kpX9/pQS+hz9en0=
+		q+C5gKe0RSbrKqmkuujkcb7f4n4=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0D1xBJ/qV8BumMuBcv1Fz6uAYpA=
+		syirIFRMLrMs7XNEHLUmISc4KfQ=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gS+cXaMiifaWopCe4RDemOVHO/k=
+		cMAAYoAn59ScWVEOLpbCqP4liH0=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Lj7DO5bJ4XhbVZwSoQQjc8QTNmk=
+		9/KyPu7PU3zOAaD8OMu1phcPRzY=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		leMqdXeM2nikf/Psj5UnZqs3iTg=
+		j1FQ+PzT6dGJA04JMncgQQgHZnM=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SYUuIFcuoxyEUpS7ntlCxLqA4k4=
+		L9AVkD7ZvDK/4IbR+3yZ8wCUp3A=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		leMqdXeM2nikf/Psj5UnZqs3iTg=
+		j1FQ+PzT6dGJA04JMncgQQgHZnM=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PRpLRkpuNWpywYd5AGNuWMLuLew=
+		DrNJBIXyOFIT//RKZjFptsleXOU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,14 +75,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8GwuvHuabSxGGCWsRxfh6qVAmVFmX/hlKKYNw7SdSdQ=
+			DXap0YZvSrO1JKBeKBH41tKjQVW5sgtHhs77f/UyqBs=
 			</data>
 		</dict>
 		<key>Headers/PapilonFingerTipDetection-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wY7DGZ4AqH5JD3adOMNrZiB+/CfxAi4araTLrWXXFv8=
+			Ib3l340IJYgASvJDev2ILGkw36qDlnM+M4AxEVn33+o=
 			</data>
 		</dict>
 		<key>Headers/PapilonFingerTipDetection.h</key>
@@ -96,70 +96,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KxbtzXC0MGhSyBC9od+9nqfmlYUNl8zSdrycQSr6FCk=
+			q8xLd3d89YwxIKKgM7eycgq0EDzJ3i0UrJf/pF6TF34=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r9PFWS6E43GsmFk+q9Nh0pO0OqCeQk6bKhTIDCLD+gk=
+			WP9mfxVUykV5CTceGm1t1w3pYNVVo2NFM3oE7XLvvFc=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rsjh62mayywKrpHQxBOaO/X50DHSTfn3OgTpxddOJ34=
+			N3IHp/HeCVJ3DE+IOIVKFZkJp5y4xST4corNJfixsY8=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r9PFWS6E43GsmFk+q9Nh0pO0OqCeQk6bKhTIDCLD+gk=
+			WP9mfxVUykV5CTceGm1t1w3pYNVVo2NFM3oE7XLvvFc=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GwNzS+vmAdSNby36GCLumStxTeLWjoVsu/S+kHBW4rg=
+			Syk8q6HrCVCSyHDVGmEQUHwfJXQcQPr1RYORdkYrlOw=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KxbtzXC0MGhSyBC9od+9nqfmlYUNl8zSdrycQSr6FCk=
+			q8xLd3d89YwxIKKgM7eycgq0EDzJ3i0UrJf/pF6TF34=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yxGI7qC3Hpn978bpUlSoCMqX3MAgqIpn2aTq/3jaj1A=
+			5MY/fqWJ0c7TrrbdGfRaqC3n5+J6P8UNwGY3lSa6ytU=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W4CRp98MX4Rb///FBF0+Ptkvrk960oCQTeyb4BAbVwc=
+			5A5HAUmq1paddek1YOtCSXfz/NY6MhWLQfiT2zBlxzs=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yxGI7qC3Hpn978bpUlSoCMqX3MAgqIpn2aTq/3jaj1A=
+			5MY/fqWJ0c7TrrbdGfRaqC3n5+J6P8UNwGY3lSa6ytU=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iNAMgliI9d3njLHFxinn6QKtO0ctlmu6V3NomUIRfl0=
+			jPhNgApRCCH9WioXTJn45lcifo1CkIc4BMid7Jkfzw8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
