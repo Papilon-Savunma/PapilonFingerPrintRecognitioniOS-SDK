@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PapilonFingerPrintRecognitioniOS-SDK'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Library for fingerprint detection from the device camera'
 
   s.homepage         = 'https://github.com/Papilon-Savunma/PapilonFingerPrintRecognitioniOS-SDK'

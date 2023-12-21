@@ -35,6 +35,7 @@ public protocol FingerTipDetectionDelegate : AnyObject {
     get
     set
   }
+  public var imageTaken: Swift.Bool
   public init(token: Swift.String, licenceID: Swift.String, parentView: UIKit.UIView)
   public func startCamera()
   public func getCaptureSession() -> AVFoundation.AVCaptureSession?

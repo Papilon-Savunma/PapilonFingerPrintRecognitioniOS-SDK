@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		76m3NHmvmo2p0/5nlKLcm8KBsew=
+		6zbcDFhRVNOuw96Un4deDdObt6c=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+qaOGtTRc70mPha1XDYygIyEMbw=
+		JzEXhgebwIZL/1nlGjP1hVHcW30=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+qaOGtTRc70mPha1XDYygIyEMbw=
+		JzEXhgebwIZL/1nlGjP1hVHcW30=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TrEdMcg6BDuGdzN3VwIi38PHyb8=
+		+DZE9BA7aQw4RzbZSgQYN4tfPrU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t29jYSJbeFkFyGSG8ztTwmFIPlgmT35uyNa1M5i8x2U=
+			SesYPdG7JLz3CpnGGYBbdfZXP0ZStmGLTbAEea+a1P8=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1uTWqZzesMKjVKI8204n3T5w1MsHP7tXEZWysOMoazE=
+			M46fTkHT3puIuzH3nVwznc60AZ3ofg5ZYvOBdE/AXDM=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1uTWqZzesMKjVKI8204n3T5w1MsHP7tXEZWysOMoazE=
+			M46fTkHT3puIuzH3nVwznc60AZ3ofg5ZYvOBdE/AXDM=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y531zjAtGhRCYeKLcRuYF/RLisM12SCebiibxpZY0MM=
+			mHmQge/5e5dsUDr3z8C2kqccV8CeZKCeZRVYuDmQZqE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
