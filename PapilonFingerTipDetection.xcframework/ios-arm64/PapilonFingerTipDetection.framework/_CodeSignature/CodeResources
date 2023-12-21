@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		6zbcDFhRVNOuw96Un4deDdObt6c=
+		wrXuydzo5mRHyRVOhtpODMCp/Fk=
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+DZE9BA7aQw4RzbZSgQYN4tfPrU=
+		atnChLlYSxwzH9I+sIgNCV+5t+4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SesYPdG7JLz3CpnGGYBbdfZXP0ZStmGLTbAEea+a1P8=
+			69Ow4E/svIyzXp43piSq/16fZyfR8vQ2yJjLDgLnx40=
 			</data>
 		</dict>
 		<key>Modules/PapilonFingerTipDetection.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mHmQge/5e5dsUDr3z8C2kqccV8CeZKCeZRVYuDmQZqE=
+			HMEgPy52P0dYxfCROXqiGsMgURDSLctYscBpH0iVAyY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
